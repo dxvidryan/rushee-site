@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rushée Support</title>
+<style>
+:root {
+  --plum: #401433; --rose: #78335e; --blush: #e8b8ba; --ivory: #faf6ed;
+  --ink: #1f171c; --muted: #6b5a65; --line: rgba(64, 20, 51, 0.12); --card: #fffdf8;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --ivory: #1d0b18; --ink: #f6eef0; --muted: #c9b5bf; --line: rgba(232, 184, 186, 0.18);
+    --card: #2a1223; --rose: #e8b8ba; --plum: #e8b8ba;
+  }
+}
+* { box-sizing: border-box; }
+html, body { overflow-x: hidden; }
+main { overflow-wrap: anywhere; }
+body {
+  margin: 0; background: var(--ivory); color: var(--ink);
+  font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+}
+header { border-bottom: 1px solid var(--line); }
+.bar, main, footer { max-width: 760px; margin: 0 auto; padding: 0 20px; }
+.bar { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; justify-content: space-between; min-height: 64px; }
+.brand { font: 600 22px/1 "New York", "Iowan Old Style", Georgia, serif; color: var(--plum); text-decoration: none; }
+nav a { color: var(--muted); text-decoration: none; margin-left: 18px; font-size: 15px; }
+nav a[aria-current="page"] { color: var(--plum); font-weight: 600; }
+main { padding-top: 40px; padding-bottom: 64px; }
+h1 { font: 600 40px/1.15 "New York", "Iowan Old Style", Georgia, serif; color: var(--plum); margin: 0 0 24px; }
+h2 { font: 600 24px/1.25 "New York", "Iowan Old Style", Georgia, serif; color: var(--plum); margin: 40px 0 12px; }
+a { color: var(--rose); }
+table { width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 15px; display: block; overflow-x: auto; }
+th, td { text-align: left; vertical-align: top; padding: 10px 12px; border-bottom: 1px solid var(--line); }
+th { color: var(--muted); font-weight: 600; }
+.hero { padding: 48px 0 8px; }
+.hero h1 { font-size: 52px; }
+.hero p { font-size: 20px; color: var(--muted); margin: 0 0 32px; }
+.cards { display: grid; gap: 12px; }
+.cards a {
+  display: block; padding: 18px 20px; border: 1px solid var(--line); border-radius: 16px;
+  background: var(--card); color: var(--ink); text-decoration: none; font-weight: 600;
+}
+footer { color: var(--muted); font-size: 14px; padding-bottom: 40px; }
+@media (max-width: 520px) { h1 { font-size: 32px; } .hero h1 { font-size: 40px; } nav a { margin-left: 12px; } }
+</style>
+</head>
+<body>
+<header><div class="bar"><a class="brand" href="index.html">Rushée</a><nav><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a><a href="support.html" aria-current="page">Support</a></nav></div></header>
+<main><h1>Rushée Support</h1>
+<p>Email us at [support email]. We reply within [two business days].</p>
+<p><strong>If you are in danger, call 911. In the US you can call or text 988 at any time.</strong> Rushée is not an emergency service.</p>
+<h2>Common questions</h2>
+<p><strong>How do I restore my purchase on a new phone?</strong>
+Open Rushée and tap <strong>Restore Purchases</strong> on the plan screen or under <strong>You → Access</strong>. Use the same Apple account you bought with.</p>
+<p><strong>How do I cancel my subscription?</strong>
+In Rushée, go to <strong>You → Manage subscription</strong>, or open your Apple account settings → Subscriptions. You keep access until the end of the period you paid for.</p>
+<p><strong>What is Coach Time?</strong>
+The minutes of live voice coaching included in your plan: 180 a month on Monthly, 45 a week on Weekly. Included minutes reset each period. Extra minutes you buy never expire. Quick questions by text don't use Coach Time.</p>
+<p><strong>The coach can't hear me.</strong>
+Check that Rushée has microphone access in iPhone Settings → Rushée. You can also type your answers in any session.</p>
+<p><strong>How do I turn AI coaching off?</strong>
+Go to <strong>You → Privacy &amp; Data</strong> and switch off <strong>AI coaching</strong>. Planning, schedules and notes still work.</p>
+<p><strong>How do I get a copy of my data?</strong>
+Go to <strong>You → Privacy &amp; Data → Export my data</strong>.</p>
+<p><strong>How do I delete my account?</strong>
+Go to <strong>You → Privacy &amp; Data → Delete account</strong>. This removes your plan, reports, notes and schedule, and forfeits unused Coach Time. It does not cancel an Apple subscription, so cancel that first if you no longer want it.</p>
+<p><strong>Is Rushée connected to my university or a sorority?</strong>
+No. Rushée is independent preparation software. Always follow your campus's official recruitment information.</p></main>
+<footer>Rushée is independent preparation software. It is not affiliated with any university, chapter or council.</footer>
+</body>
+</html>
